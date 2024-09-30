@@ -1,0 +1,6 @@
+- Install poetry: curl -sSL https://install.python-poetry.org | python3 -
+- Create file pyproject.toml
+- Init project with poetry: poetry init
+- Specify your dependencies and their configs in pyproject.toml file
+- run `poetry install` -> output file: poetry.lock
+- 
