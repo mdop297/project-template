@@ -42,12 +42,12 @@ ensure_newline_before_comments = true
 line_length = 120
 indent = 4
 lines_between_types = 1
-known_first_party = ["cybulde"]
+known_first_party = ["src"]
 default_section = "THIRDPARTY"
 sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.11"
 show_error_codes = true
 ignore_missing_imports = true
 install_types = true
